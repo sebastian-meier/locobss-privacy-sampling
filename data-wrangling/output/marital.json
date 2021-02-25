@@ -1,0 +1,47 @@
+{
+  "age": {
+    "value": null
+  },
+  "gender": {
+    "value": null
+  },
+  "marital": {
+    "value": null
+  },
+  "nationality": {
+    "value": null
+  },
+  "gender_marital": {
+    "value": null
+  },
+  "gender_marital_nationality": {
+    "value": 83166711
+  },
+  "marital_nationality": {
+    "value": null
+  },
+  "gender_nationality": {
+    "value": null
+  },
+  "gender_age": {
+    "value": null
+  },
+  "marital_age": {
+    "value": null
+  },
+  "nationality_age": {
+    "value": null
+  },
+  "gender_marital_age": {
+    "value": null
+  },
+  "gender_marital_nationality_age": {
+    "value": null
+  },
+  "marital_nationality_age": {
+    "value": null
+  },
+  "gender_nationality_age": {
+    "value": null
+  }
+}
