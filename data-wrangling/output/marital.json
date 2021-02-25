@@ -1,47 +1,208 @@
 {
-  "age": {
-    "value": null
-  },
-  "gender": {
-    "value": null
-  },
-  "marital": {
-    "value": null
-  },
-  "nationality": {
-    "value": null
-  },
-  "gender_marital": {
-    "value": null
-  },
-  "gender_marital_nationality": {
-    "value": 83166711
-  },
-  "marital_nationality": {
-    "value": null
-  },
-  "gender_nationality": {
-    "value": null
-  },
-  "gender_age": {
-    "value": null
-  },
-  "marital_age": {
-    "value": null
-  },
-  "nationality_age": {
-    "value": null
-  },
-  "gender_marital_age": {
-    "value": null
-  },
-  "gender_marital_nationality_age": {
-    "value": null
-  },
-  "marital_nationality_age": {
-    "value": null
-  },
-  "gender_nationality_age": {
-    "value": null
-  }
+ "age": {
+  "value": 524879,
+  "smallest": [
+   [
+    "/_/",
+    "84-J�hrige"
+   ]
+  ]
+ },
+ "gender": {
+  "value": 42129098,
+  "smallest": [
+   "/female_/"
+  ]
+ },
+ "marital": {
+  "value": 5621393,
+  "smallest": [
+   "/verwitwet/"
+  ]
+ },
+ "nationality": {
+  "value": 10398022,
+  "smallest": [
+   "/non_german/"
+  ]
+ },
+ "gender_marital": {
+  "value": 3574574,
+  "smallest": [
+   "/female_divorces/"
+  ]
+ },
+ "gender_marital_nationality": {
+  "value": 50476,
+  "smallest": [
+   "/non_german_male_verwitwet/"
+  ]
+ },
+ "marital_nationality": {
+  "value": 257266,
+  "smallest": [
+   "/non_german.*verwitwet/"
+  ]
+ },
+ "gender_nationality": {
+  "value": 4901083,
+  "smallest": [
+   "/non_german_female/"
+  ]
+ },
+ "gender_age": {
+  "value": 305152,
+  "smallest": [
+   [
+    "/female/",
+    "74-J�hrige"
+   ]
+  ]
+ },
+ "marital_age": {
+  "value": 1,
+  "smallest": [
+   [
+    "/divorces/",
+    "14-J�hrige"
+   ],
+   [
+    "/married/",
+    "15-J�hrige"
+   ],
+   [
+    "/verwitwet/",
+    "15-J�hrige"
+   ]
+  ]
+ },
+ "nationality_age": {
+  "value": 13515,
+  "smallest": [
+   [
+    "/non_german/",
+    "84-J�hrige"
+   ]
+  ]
+ },
+ "gender_marital_age": {
+  "value": 1,
+  "smallest": [
+   [
+    "/female_divorces/",
+    "14-J�hrige"
+   ],
+   [
+    "/female_verwitwet/",
+    "15-J�hrige"
+   ]
+  ]
+ },
+ "gender_marital_nationality_age": {
+  "value": 1,
+  "smallest": [
+   [
+    "/non_german_female_divorces/",
+    "14-J�hrige"
+   ],
+   [
+    "/non_german_male_married/",
+    "15-J�hrige"
+   ],
+   [
+    "/non_german_female_verwitwet/",
+    "15-J�hrige"
+   ],
+   [
+    "/^german_female_married/",
+    "16-J�hrige"
+   ],
+   [
+    "/non_german_male_married/",
+    "16-J�hrige"
+   ],
+   [
+    "/^german_male_married/",
+    "17-J�hrige"
+   ],
+   [
+    "/^german_female_married/",
+    "17-J�hrige"
+   ],
+   [
+    "/^german_male_verwitwet/",
+    "18-J�hrige"
+   ],
+   [
+    "/non_german_male_verwitwet/",
+    "18-J�hrige"
+   ],
+   [
+    "/non_german_male_divorces/",
+    "18-J�hrige"
+   ],
+   [
+    "/^german_male_verwitwet/",
+    "19-J�hrige"
+   ],
+   [
+    "/non_german_male_verwitwet/",
+    "19-J�hrige"
+   ],
+   [
+    "/non_german_male_verwitwet/",
+    "20-J�hrige"
+   ],
+   [
+    "/non_german_male_verwitwet/",
+    "21-J�hrige"
+   ],
+   [
+    "/non_german_male_verwitwet/",
+    "23-J�hrige"
+   ]
+  ]
+ },
+ "marital_nationality_age": {
+  "value": 1,
+  "smallest": [
+   [
+    "/non_german.*divorces/",
+    "14-J�hrige"
+   ],
+   [
+    "/non_german.*married/",
+    "15-J�hrige"
+   ],
+   [
+    "/non_german.*verwitwet/",
+    "15-J�hrige"
+   ],
+   [
+    "/^german.*married/",
+    "16-J�hrige"
+   ],
+   [
+    "/^german.*verwitwet/",
+    "18-J�hrige"
+   ],
+   [
+    "/non_german.*verwitwet/",
+    "18-J�hrige"
+   ],
+   [
+    "/^german.*verwitwet/",
+    "19-J�hrige"
+   ]
+  ]
+ },
+ "gender_nationality_age": {
+  "value": 6687,
+  "smallest": [
+   [
+    "/non_german_female/",
+    "84-J�hrige"
+   ]
+  ]
+ }
 }
