@@ -4,7 +4,8 @@
   import SpatialResult from '../components/SpatialResult.svelte';
   import Loader from '../components/Loader.svelte';
   import Pyramid from '../components/Pyramid.svelte';
-  import { load, translations, ages, marital, nationality, spatial} from '../../stores/data';
+  import { load, ages, marital, nationality, spatial} from '../../stores/data';
+  import { _ } from 'svelte-i18n';
 
   let loaded = false;
   load().then(() => {
@@ -15,22 +16,22 @@
 
   let selected_1 = '';
   let attributes_1 = [
-    { key: 'age', label: 'Age', state: false},
-    { key: 'gender', label: 'Gender', state: false},
-    { key: 'nationality', label: 'Nationality', state: false}
+    { key: 'age', state: false},
+    { key: 'gender', state: false},
+    { key: 'nationality', state: false}
   ];
 
   let attributes_2 = [
-    { key: 'age', label: 'Age', state: false},
-    { key: 'gender', label: 'Gender', state: false},
-    { key: 'marital', label: 'Marital status', state: false},
-    { key: 'nationality', label: 'Nationality', state: false}
+    { key: 'age', state: false},
+    { key: 'gender', state: false},
+    { key: 'marital', state: false},
+    { key: 'nationality', state: false}
   ];
 
   let attributes_3 = [
-    { key: 'age', label: 'Age', state: false},
-    { key: 'gender', label: 'Gender', state: false},
-    { key: 'nationality', label: 'Nationality', state: false}
+    { key: 'age', state: false},
+    { key: 'gender', state: false},
+    { key: 'nationality', state: false}
   ];
 
   $: l_spatial = $spatial;
@@ -39,27 +40,21 @@
   $: l_ages = $ages;
 </script>
 
-<h1>Collecting data &amp; protecting individual privacy</h1>
-<h2>How to identify individuals through their attributes in anonymized data</h2>
-<span class="subline">This demonstration was build to accompany a government survey development guideline.<br />The full guideline is available <a href="https://www.github.com/sebastian-meier/locobss-documentation">here</a>.</span>
+<h1>{@html $_('h1')}</h1>
+<h2>{$_('h2')}</h2>
+<span class="subline">{@html $_('subline')}</span>
 
-<p class="intro">
-  Surveys often need to anonymize their data, which in many cases means, that "personal" information is removed. In most cases this only focusses on things like names, contact information or a personal adress. But usually it is not concerned with all the other attributes that a survey collects. But depending on the distribution of collected attributes across the observed population, those attributes could still give away an individuals identity, when for example, cross-referenced with an additional data-set. Therefore, it is important to choose those attributes wisely to ensure individuals cannot be identified through their attributes.
-</p>
+<p class="intro">{@html $_('intro')}</p>
 
-<!-- An easy solution to overcome this problem is to create so called bins or buckets inside attributes, for example, instead of collecting the exact age of participants, only collect age groups. Instead of using for example a 10-year-interval, one could size the intervals, so that each bin holds the same amount of people in the observed population.  -->
-
-<h3>Spatial resolution</h3>
-<p>The more fine granular the data, the easier it gets to identify an individual. To demonstrate this, the first example offers the same attributes on different spatial granularity levels.</p>
-<p class="instructions">
-  Select a spatial granularity and select which attributes you want to collect, the system will then tell you what the smallest group inside the data is.
-</p>
+<h3>{$_('ch1_h3')}</h3>
+<p>{@html $_('ch1_intro')}</p>
+<p class="instructions">{@html $_('ch1_instructions')}</p>
 {#if !loaded}
 <Loader />
 {:else}
 <Selectors 
-  selectionLabel="Spatial Granularity" 
-  selection={[{id: '', name: 'Please Choose'}, {id: 'federal', name: 'Federal'}, {id:'states', name:'States'}, {id:'regional', name:'Regional'}, {id: 'local', name: 'Local'}]}
+  selectionLabel={$_('ch1_h3')} 
+  selection={[{id: '', name: $_('please_choose')}, {id: 'federal', name: $_('federal')}, {id:'states', name: $_('states')}, {id:'regional', name: $_('regional')}, {id: 'local', name: $_('local')}]}
   bind:selected={selected_1}
   bind:attributes={attributes_1} />
 <SpatialResult 
@@ -67,13 +62,11 @@
   data={l_spatial}
   selection={selected_1} />
 {/if}
-<p class="data-description">Dataset: 21 age groups, 2 gender groups, 2 nationality groups</p>
+<p class="data-description">{@html $_('ch1_dataset')}</p>
 
-<h3>Nationality</h3>
-<p>Groups' sizes which are too small and, thereby, do not conform to your privacy goals, are not only derived from spatial units. This next example splits up nationalities into 125 groups and, thereby, creating groups that even go down to one individual. So if you meet a woman from Benin, 65 or older, she is one of a kind in German.</p>
-<p class="instructions">
-  Combine attributes and the system will tell you what the smallest group inside the data is.
-</p>
+<h3>{$_('ch2_h3')}</h3>
+<p>{@html $_('ch2_intro')}</p>
+<p class="instructions">{@html $_('ch2_instructions')}</p>
 {#if !loaded}
 <Loader />
 {:else}
@@ -83,13 +76,11 @@
   attributes={attributes_3.filter((a) => a.state).map((a) => a.key)}
   data={l_nationality} />
 {/if}
-<p class="data-description">Dataset: 11 age groups, 2 gender groups, 125 nationality groups</p>
+<p class="data-description">{@html $_('ch2_dataset')}</p>
 
-<h3>Marital status</h3>
-<p>In this last example the high granularity lies on the attribute ages, combined with the attribute martial status, which can be very sparse at the outer ends of the age spectrum, this generates a lot of small cases.</p>
-<p class="instructions">
-  Combine attributes and the system will tell you what the smallest group inside the data is.
-</p>
+<h3>{$_('ch3_h3')}</h3>
+<p>{@html $_('ch3_intro')}</p>
+<p class="instructions">{@html $_('ch3_instructions')}</p>
 {#if !loaded}
 <Loader />
 {:else}
@@ -99,10 +90,10 @@
   attributes={attributes_2.filter((a) => a.state).map((a) => a.key)}
   data={l_marital} />
 {/if}
-<p class="data-description">Dataset: 86 age groups, 2 gender groups, 2 nationality groups, 7 marital status groups</p>
+<p class="data-description">{@html $_('ch3_dataset')}</p>
 
-<h3>Age groups</h3>
-<p style="padding-bottom:20px;">The number of classes (bins, buckets, groups, etc.) per attribute have a strong impact on the size of groups found in a dataset. You can even use groups across your dimensions to overcome this problem. Identifying small groups and combining them with bigger groups ensures the privacy of individuals in smaller groups. <i>If you create your groups, make sure you look beyond indivdiual attributes, as this site tried to highlight.</i> To highlight the impact of such binning approaches, we end this article with showing four age pyramids, starting with a pyramid that groups by individual year and then the data for the three examples on this site with varying groups.</p>
+<h3>{$_('ch4_h3')}</h3>
+<p style="padding-bottom:20px;">{@html $_('ch4_intro')}</p>
 <div class="columns">
   <div>
     <Pyramid data={l_ages[3]} labelLimit={5} />
@@ -124,8 +115,8 @@
 
 <hr class="article-end" />
 
-<h3>Other methods to collect attributes</h3>
-<p>There are also other technical methods of "distorting" or rather "diffusing" attribute data. Following, a few papers on such techniques, this list is not exhaustive and should be seen as a starting point for further investigation:</p>
+<h3>{$_('ch5_h3')}</h3>
+<p>{@html $_('ch5_intro')}</p>
 <ul class="references">
   <li>
     Cynthia Dwork, Frank McSherry, Kobbi Nissim, Adam Smith (2020) <i>Calibrating Noise to Sensitivity in Private Data Analysis</i><br />
@@ -141,6 +132,6 @@
   </li>
 </ul>
 
-<h3>Attribution</h3>
-<p style="padding-bottom:10px;">Hand-icon (right) by <a href="https://thenounproject.com/desbenoit/uploads/?i=5380">Desbenoit</a> from the Noun Project</p>
-<p>The data in the examples are all from the German statistical offices or the statistical offices of states (Statistische Ämter des Bundes und der Länder, Deutschland, 2021). Sadly deeplinks are not possible, but you can find the raw data on either <a href="https://www.regionalstatistik.de">Regionalstatistik</a> or <a href="https://www-genesis.destatis.de/genesis/online">Destatis</a></p>
+<h3>{$_('ch6_h3')}</h3>
+<p style="padding-bottom:10px;">{@html $_('ch6_p1')}</p>
+<p>{@html $_('ch6_p2')}</p>

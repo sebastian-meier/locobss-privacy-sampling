@@ -1,6 +1,7 @@
 <script lang="ts">
   import {niceNumbers} from '../../lib/utils';
   import {translations} from '../../stores/data';
+  import { _, getMessageFormatter } from 'svelte-i18n';
 
   export let data: {
     [key: string]: {
@@ -12,9 +13,11 @@
 
   let result: {
     key: string,
-    value: number
+    value: number,
+    groupCount: number
   } = {
     key: '',
+    groupCount: 0,
     value: 0
   };
 
@@ -24,6 +27,7 @@
   }
 
   $: if (attributes.length > 0) {
+    result.groupCount = data[genKey(attributes)].smallest.length;
     result.value = data[genKey(attributes)].value;
     result.key = data[genKey(attributes)].smallest.map((s) => {
       return s.map((ss) => (ss in $translations) ? $translations[ss] : ss).join(': ');
@@ -34,9 +38,9 @@
 <div class="result-container">
   <div class="result" class:filled={attributes.length > 0}>
     {#if attributes.length > 0}
-    The smallest number of cases (<strong>{niceNumbers(result.value)}</strong>) occurs in the group of: <strong>{result.key}</strong>
+    {$_('smallest_group_default_p1')} (<strong>{niceNumbers(result.value)}</strong>) {getMessageFormatter($_('smallest_group_default_p2')).format({count: result.groupCount})}: <strong>{result.key}</strong>
     {:else}
-    Please choose at least one attribute.
+    {$_('choose_default')}
     {/if}
   </div>
 </div>

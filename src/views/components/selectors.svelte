@@ -1,6 +1,7 @@
 <script lang="typescript">
   import Select from './forms/select.svelte';
   import { v4 as uuidv4 } from 'uuid';
+  import { _ } from 'svelte-i18n';
 
   export let selectionLabel: string = '';
   export let selection: {
@@ -10,7 +11,6 @@
   export let selected = '';
   export let attributes: {
     key: string;
-    label: string;
     state: boolean;
   }[] = [];
 
@@ -38,8 +38,8 @@
     {/if}
     {#each attributes as attribute, i (attribute.key)}
     <li>
-      {#if i === 0}Attributes:&nbsp;<br class="mobile-break" />{/if}
-      <button on:click={() => toggleState(attribute.key)} class:selected={attribute.state} data-key={attribute.key}>{attribute.label}</button>
+      {#if i === 0}{$_('attributes')}:&nbsp;<br class="mobile-break" />{/if}
+      <button on:click={() => toggleState(attribute.key)} class:selected={attribute.state} data-key={attribute.key}>{$_(attribute.key)}</button>
     </li>
     {/each}
   </ul>

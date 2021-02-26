@@ -1,10 +1,11 @@
 <script lang="ts">
   import {scaleLinear, max, axisBottom, select} from 'd3';
   import {v4 as uuid4} from 'uuid';
+  import { _ } from 'svelte-i18n';
 
   export let data:{
     "key":number;
-    "label": string;
+    "label": (string | number)[];
     "value":number;
   }[] = [];
 
@@ -26,7 +27,7 @@
   $: yScale = scaleLinear().domain([0, data.length]).range([padding.top, graphHeight - padding.bottom]);
   $: barHeight = (graphHeight - padding.top - padding.bottom) / data.length - padding.inBetween;
 
-  $: axis = axisBottom().scale(xScale).ticks(3);
+  $: axis = axisBottom(xScale).ticks(3);
   $: {
     select(`#pyramidBottomAxis_${uuid} *`).remove();
     select(`#pyramidBottomAxis_${uuid}`).call(axis);
@@ -39,12 +40,15 @@
   <svg>
     {#each data as d, i}
       <g transform="translate({padding.left}, {yScale(i)})">
-        {#if i%labelLimit === 0}<text text-anchor="end" dx="-5" dy="{barHeight / 2 + 2}">{d.label}</text>{/if}
+        {#if i%labelLimit === 0}<text text-anchor="end" dx="-5" dy="{barHeight / 2 + 2}">{d.label.map((l) => {
+          if (isNaN(parseInt(l.toString()))) {
+            return $_(l.toString());
+          }
+          return l;
+        }).join(' ')}</text>{/if}
         <rect height={barHeight} width={xScale(d.value)} />
       </g>
     {/each}
-    <g id="pyramidBottomAxis_{uuid}" transform="translate({padding.left} {graphHeight-padding.bottom + 5})">
-      
-    </g>
+    <g id="pyramidBottomAxis_{uuid}" transform="translate({padding.left} {graphHeight-padding.bottom + 5})"></g>
   </svg>
 </div>

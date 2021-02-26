@@ -1,5 +1,6 @@
 <script lang="ts">
   import {niceNumbers} from '../../lib/utils';
+  import { _ } from 'svelte-i18n';
 
   export let data: {
     [key: string]: {
@@ -36,9 +37,9 @@
 <div class="result-container">
   <div class="result" class:filled={selection !== '' && attributes.length > 0}>
     {#if selection !== '' && attributes.length > 0}
-    With this selection the smallest group has the size of <strong>{niceNumbers(result.value)}</strong>.
+    {$_('smallest_group_spatial')} <strong>{niceNumbers(result.value)}</strong>.
     {:else}
-    Please choose spatial granularity and at least one attribute.
+    {$_('choose_spatial')}
     {/if}
   </div>
 </div>
