@@ -3,7 +3,7 @@
     "84-J�hrige": "84 years",
     "/female_/": "women",
     "/verwitwet/": "widowers",
-    "/non_german/": "foreign",
+    "/non_german/": "foreigners",
     "/female_divorces/": "female divorcee",
     "/non_german_male_verwitwet/": "foreign male widowers",
     "/non_german.*verwitwet/": "foreign widowers",
@@ -36,7 +36,7 @@
     "�briges Ozeanien": "Rest of Oceania",
     "/overall_15_to_18/": "Ages - 15 to 18",
     "/overall_under_3/": "Ages - under 3",
-    "/^male_/": "male",
+    "/^male_/": "men",
     "/female_15_to_18/": "women between 15 to 18",
     "/female_65_and_up/": "women 65 and up"
 }

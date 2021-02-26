@@ -14,6 +14,7 @@
 <style lang="scss" global>
 	@import 'styles/vars';
 	@import 'styles/global';
+  @import 'styles/selectors';
   @import 'styles/header';
   @import 'styles/footer';
 </style>

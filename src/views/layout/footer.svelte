@@ -1,3 +1,13 @@
 <div id="footer">
-  Footer: Really nice boilerplate
+  <div>
+    <p>A project by:</p>
+    <a href="https://www.vislab.io"><img src="assets/images/vislab_logo.png" alt="VISLAB.io" /></a>
+  </div>
+  <div>
+    <a href="https://www.bmbf.de"><img src="assets/images/bmbf.svg" alt="Funded by BMBF" /></a>
+  </div>
+  <div>
+    <p>Public Money, Public Code:</p>
+    <a href="https://www.github.com/sebastian-meier/LoCobSS-documentation"><img src="assets/images/github_logo.png" alt="GitHub" /></a>
+  </div>
 </div>

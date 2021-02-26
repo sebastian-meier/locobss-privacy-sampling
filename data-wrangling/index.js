@@ -103,22 +103,68 @@ Object.keys(stats).forEach((key) => {
 fs.writeFileSync('./output/spatial.json', JSON.stringify(stats), 'utf8');
 
 // age pyramid for germany
-const ageRecords = parse(fs.readFileSync(`./data/federal.csv`, 'utf8'), {
+let ageRecords = parse(fs.readFileSync(`./data/federal.csv`, 'utf8'), {
   columns: true,
   skip_empty_lines: true,
   delimiter: ';'
 });
 
-const ages = [];
+let ages = [[],[],[]];
 ageRecords.forEach((r, ri) => {
-  ages.push({
+  ages[0].push({
     key: ri,
     label: r.AgeGroup,
     value: parseInt(r.Overall) 
   });
 });
 
+ageRecords = parse(fs.readFileSync(`./data/marital.csv`, 'utf8'), {
+  columns: true,
+  skip_empty_lines: true,
+  delimiter: ';'
+});
+
+ageRecords.forEach((r, ri) => {
+  const columns = 'german_male_ledig;german_male_married;german_male_verwitwet;german_male_divorces;german_male_partnership;german_male_former_partnership;german_male_dead_partnership;german_female_ledig;german_female_married;german_female_verwitwet;german_female_divorces;german_female_partnership;german_female_former_partnership;german_female_dead_partnership;non_german_male_ledig;non_german_male_married;non_german_male_verwitwet;non_german_male_divorces;non_german_male_partnership;non_german_male_former_partnership;non_german_male_dead_partnership;non_german_female_ledig;non_german_female_married;non_german_female_verwitwet;non_german_female_divorces;non_german_female_partnership;non_german_female_former_partnership;non_german_female_dead_partnership'.split(';');
+  let v = 0;
+  columns.forEach((c) => {
+    if (!isNaN(parseInt(r[c]))) {
+      v += parseInt(r[c]);
+    }
+  });
+  ages[1].push({
+    key: ri,
+    label: r.AgeGroup,
+    value: v
+  });
+});
+
+ageRecords = parse(fs.readFileSync(`./data/nationality.csv`, 'utf8'), {
+  columns: true,
+  skip_empty_lines: true,
+  delimiter: ';'
+});
+
+const age_columns = [/under_3/,/3_to_6/,/6_to_10/,/10_to_15/,/15_to_18/,/18_to_21/,/21_to_30/,/30_to_50/,/50_to_60/,/60_to_65/,/65_and_up/];
+
+age_columns.forEach((c, ci) => {
+  let v = 0;
+  ageRecords.forEach((r) => {
+    Object.keys(r).forEach((k) => {
+      if (k.match(c) && !isNaN(parseInt(r[k]))) {
+        v += parseInt(r[k]);
+      }
+    });
+  });
+  ages[2].push({
+    key: ci,
+    label: c.toString().split('_').join(' '),
+    value: v 
+  });
+})
+
 fs.writeFileSync('./output/ages.json', JSON.stringify(ages), 'utf8');
+
 
 // nationality, gender, marital, age
 

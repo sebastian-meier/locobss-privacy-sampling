@@ -6,12 +6,6 @@ form {
     padding: 0 0 10px 0;
   }
   
-  label {
-    display:block;
-    width:100%;
-    font-weight: 700;
-  }
-
   textarea, input {
     border: 1px solid rgba(0,0,0,0.4);
     width:100%;
@@ -21,8 +15,8 @@ form {
       width:auto;
     }
   }
+}
 
-  select {
-    width:100%;
-  }
+label{
+  display: inline;
 }

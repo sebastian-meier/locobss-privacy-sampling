@@ -90,6 +90,7 @@ export default {
 		// instead of npm run dev), minify
 		production && terser(),
 		replace({
+			preventAssignment: false,
       // stringify the object       
       __global: JSON.stringify({
         env: {

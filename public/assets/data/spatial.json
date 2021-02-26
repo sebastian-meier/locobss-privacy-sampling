@@ -1,0 +1,58 @@
+{
+    "age": {
+        "values": {
+            "local": 389,
+            "regional": 5712,
+            "states": 7049,
+            "federal": 823047
+        }
+    },
+    "gender": {
+        "values": {
+            "local": 16943,
+            "regional": 265564,
+            "states": 337001,
+            "federal": 41037613
+        }
+    },
+    "nationality": {
+        "values": {
+            "local": 1997,
+            "regional": 58447,
+            "states": 74807,
+            "federal": 10398022
+        }
+    },
+    "gender_nationality": {
+        "values": {
+            "local": 856,
+            "regional": 23659,
+            "states": 32170,
+            "federal": 4901083
+        }
+    },
+    "age_gender": {
+        "values": {
+            "local": 100,
+            "regional": 1543,
+            "states": 1879,
+            "federal": 223218
+        }
+    },
+    "age_nationality": {
+        "values": {
+            "local": 1,
+            "regional": 58,
+            "states": 68,
+            "federal": 18438
+        }
+    },
+    "age_gender_nationality": {
+        "values": {
+            "local": 1,
+            "regional": 25,
+            "states": 27,
+            "federal": 6777
+        }
+    }
+}

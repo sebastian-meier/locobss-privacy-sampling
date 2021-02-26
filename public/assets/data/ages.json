@@ -1,0 +1,1105 @@
+[
+  [
+    {
+      "key": 0,
+      "label": "unter 3 Jahre",
+      "value": 2371417
+    },
+    {
+      "key": 1,
+      "label": "3 bis unter 6 Jahre",
+      "value": 2361438
+    },
+    {
+      "key": 2,
+      "label": "6 bis unter 10 Jahre",
+      "value": 2955491
+    },
+    {
+      "key": 3,
+      "label": "10 bis unter 15 Jahre",
+      "value": 3702913
+    },
+    {
+      "key": 4,
+      "label": "15 bis unter 18 Jahre",
+      "value": 2286643
+    },
+    {
+      "key": 5,
+      "label": "18 bis unter 20 Jahre",
+      "value": 1652600
+    },
+    {
+      "key": 6,
+      "label": "20 bis unter 25 Jahre",
+      "value": 4608431
+    },
+    {
+      "key": 7,
+      "label": "25 bis unter 30 Jahre",
+      "value": 5074471
+    },
+    {
+      "key": 8,
+      "label": "30 bis unter 35 Jahre",
+      "value": 5495720
+    },
+    {
+      "key": 9,
+      "label": "35 bis unter 40 Jahre",
+      "value": 5289210
+    },
+    {
+      "key": 10,
+      "label": "40 bis unter 45 Jahre",
+      "value": 4909026
+    },
+    {
+      "key": 11,
+      "label": "45 bis unter 50 Jahre",
+      "value": 5273358
+    },
+    {
+      "key": 12,
+      "label": "50 bis unter 55 Jahre",
+      "value": 6710235
+    },
+    {
+      "key": 13,
+      "label": "55 bis unter 60 Jahre",
+      "value": 6737305
+    },
+    {
+      "key": 14,
+      "label": "60 bis unter 65 Jahre",
+      "value": 5647771
+    },
+    {
+      "key": 15,
+      "label": "65 bis unter 70 Jahre",
+      "value": 4859032
+    },
+    {
+      "key": 16,
+      "label": "70 bis unter 75 Jahre",
+      "value": 3674095
+    },
+    {
+      "key": 17,
+      "label": "75 bis unter 80 Jahre",
+      "value": 3876420
+    },
+    {
+      "key": 18,
+      "label": "80 bis unter 85 Jahre",
+      "value": 3294281
+    },
+    {
+      "key": 19,
+      "label": "85 bis unter 90 Jahre",
+      "value": 1563807
+    },
+    {
+      "key": 20,
+      "label": "90 Jahre und mehr",
+      "value": 823047
+    }
+  ],
+  [
+    {
+      "key": 0,
+      "label": "unter 1 Jahr",
+      "value": 774870
+    },
+    {
+      "key": 1,
+      "label": "1-Jährige",
+      "value": 794132
+    },
+    {
+      "key": 2,
+      "label": "2-Jährige",
+      "value": 802415
+    },
+    {
+      "key": 3,
+      "label": "3-Jährige",
+      "value": 807816
+    },
+    {
+      "key": 4,
+      "label": "4-Jährige",
+      "value": 782143
+    },
+    {
+      "key": 5,
+      "label": "5-Jährige",
+      "value": 771479
+    },
+    {
+      "key": 6,
+      "label": "6-Jährige",
+      "value": 743954
+    },
+    {
+      "key": 7,
+      "label": "7-Jährige",
+      "value": 741969
+    },
+    {
+      "key": 8,
+      "label": "8-Jährige",
+      "value": 725807
+    },
+    {
+      "key": 9,
+      "label": "9-Jährige",
+      "value": 743761
+    },
+    {
+      "key": 10,
+      "label": "10-Jährige",
+      "value": 732376
+    },
+    {
+      "key": 11,
+      "label": "11-Jährige",
+      "value": 751663
+    },
+    {
+      "key": 12,
+      "label": "12-Jährige",
+      "value": 746670
+    },
+    {
+      "key": 13,
+      "label": "13-Jährige",
+      "value": 731698
+    },
+    {
+      "key": 14,
+      "label": "14-Jährige",
+      "value": 740506
+    },
+    {
+      "key": 15,
+      "label": "15-Jährige",
+      "value": 756823
+    },
+    {
+      "key": 16,
+      "label": "16-Jährige",
+      "value": 757882
+    },
+    {
+      "key": 17,
+      "label": "17-Jährige",
+      "value": 771938
+    },
+    {
+      "key": 18,
+      "label": "18-Jährige",
+      "value": 798514
+    },
+    {
+      "key": 19,
+      "label": "19-Jährige",
+      "value": 854086
+    },
+    {
+      "key": 20,
+      "label": "20-Jährige",
+      "value": 878869
+    },
+    {
+      "key": 21,
+      "label": "21-Jährige",
+      "value": 905902
+    },
+    {
+      "key": 22,
+      "label": "22-Jährige",
+      "value": 947646
+    },
+    {
+      "key": 23,
+      "label": "23-Jährige",
+      "value": 944591
+    },
+    {
+      "key": 24,
+      "label": "24-Jährige",
+      "value": 931423
+    },
+    {
+      "key": 25,
+      "label": "25-Jährige",
+      "value": 947032
+    },
+    {
+      "key": 26,
+      "label": "26-Jährige",
+      "value": 978142
+    },
+    {
+      "key": 27,
+      "label": "27-Jährige",
+      "value": 995515
+    },
+    {
+      "key": 28,
+      "label": "28-Jährige",
+      "value": 1030314
+    },
+    {
+      "key": 29,
+      "label": "29-Jährige",
+      "value": 1123468
+    },
+    {
+      "key": 30,
+      "label": "30-Jährige",
+      "value": 1109227
+    },
+    {
+      "key": 31,
+      "label": "31-Jährige",
+      "value": 1133582
+    },
+    {
+      "key": 32,
+      "label": "32-Jährige",
+      "value": 1109010
+    },
+    {
+      "key": 33,
+      "label": "33-Jährige",
+      "value": 1088700
+    },
+    {
+      "key": 34,
+      "label": "34-Jährige",
+      "value": 1055201
+    },
+    {
+      "key": 35,
+      "label": "35-Jährige",
+      "value": 1048086
+    },
+    {
+      "key": 36,
+      "label": "36-Jährige",
+      "value": 1048762
+    },
+    {
+      "key": 37,
+      "label": "37-Jährige",
+      "value": 1069168
+    },
+    {
+      "key": 38,
+      "label": "38-Jährige",
+      "value": 1059479
+    },
+    {
+      "key": 39,
+      "label": "39-Jährige",
+      "value": 1063715
+    },
+    {
+      "key": 40,
+      "label": "40-Jährige",
+      "value": 1011818
+    },
+    {
+      "key": 41,
+      "label": "41-Jährige",
+      "value": 997428
+    },
+    {
+      "key": 42,
+      "label": "42-Jährige",
+      "value": 987623
+    },
+    {
+      "key": 43,
+      "label": "43-Jährige",
+      "value": 968885
+    },
+    {
+      "key": 44,
+      "label": "44-Jährige",
+      "value": 943272
+    },
+    {
+      "key": 45,
+      "label": "45-Jährige",
+      "value": 954462
+    },
+    {
+      "key": 46,
+      "label": "46-Jährige",
+      "value": 960829
+    },
+    {
+      "key": 47,
+      "label": "47-Jährige",
+      "value": 1038797
+    },
+    {
+      "key": 48,
+      "label": "48-Jährige",
+      "value": 1139590
+    },
+    {
+      "key": 49,
+      "label": "49-Jährige",
+      "value": 1179680
+    },
+    {
+      "key": 50,
+      "label": "50-Jährige",
+      "value": 1263945
+    },
+    {
+      "key": 51,
+      "label": "51-Jährige",
+      "value": 1320960
+    },
+    {
+      "key": 52,
+      "label": "52-Jährige",
+      "value": 1352770
+    },
+    {
+      "key": 53,
+      "label": "53-Jährige",
+      "value": 1385608
+    },
+    {
+      "key": 54,
+      "label": "54-Jährige",
+      "value": 1386952
+    },
+    {
+      "key": 55,
+      "label": "55-Jährige",
+      "value": 1408832
+    },
+    {
+      "key": 56,
+      "label": "56-Jährige",
+      "value": 1392942
+    },
+    {
+      "key": 57,
+      "label": "57-Jährige",
+      "value": 1344388
+    },
+    {
+      "key": 58,
+      "label": "58-Jährige",
+      "value": 1319852
+    },
+    {
+      "key": 59,
+      "label": "59-Jährige",
+      "value": 1271291
+    },
+    {
+      "key": 60,
+      "label": "60-Jährige",
+      "value": 1230109
+    },
+    {
+      "key": 61,
+      "label": "61-Jährige",
+      "value": 1157125
+    },
+    {
+      "key": 62,
+      "label": "62-Jährige",
+      "value": 1124758
+    },
+    {
+      "key": 63,
+      "label": "63-Jährige",
+      "value": 1087957
+    },
+    {
+      "key": 64,
+      "label": "64-Jährige",
+      "value": 1047822
+    },
+    {
+      "key": 65,
+      "label": "65-Jährige",
+      "value": 1021046
+    },
+    {
+      "key": 66,
+      "label": "66-Jährige",
+      "value": 981186
+    },
+    {
+      "key": 67,
+      "label": "67-Jährige",
+      "value": 972595
+    },
+    {
+      "key": 68,
+      "label": "68-Jährige",
+      "value": 946118
+    },
+    {
+      "key": 69,
+      "label": "69-Jährige",
+      "value": 938087
+    },
+    {
+      "key": 70,
+      "label": "70-Jährige",
+      "value": 898100
+    },
+    {
+      "key": 71,
+      "label": "71-Jährige",
+      "value": 811462
+    },
+    {
+      "key": 72,
+      "label": "72-Jährige",
+      "value": 754507
+    },
+    {
+      "key": 73,
+      "label": "73-Jährige",
+      "value": 648189
+    },
+    {
+      "key": 74,
+      "label": "74-Jährige",
+      "value": 561837
+    },
+    {
+      "key": 75,
+      "label": "75-Jährige",
+      "value": 740528
+    },
+    {
+      "key": 76,
+      "label": "76-Jährige",
+      "value": 740375
+    },
+    {
+      "key": 77,
+      "label": "77-Jährige",
+      "value": 704285
+    },
+    {
+      "key": 78,
+      "label": "78-Jährige",
+      "value": 836403
+    },
+    {
+      "key": 79,
+      "label": "79-Jährige",
+      "value": 854829
+    },
+    {
+      "key": 80,
+      "label": "80-Jährige",
+      "value": 814346
+    },
+    {
+      "key": 81,
+      "label": "81-Jährige",
+      "value": 726011
+    },
+    {
+      "key": 82,
+      "label": "82-Jährige",
+      "value": 643708
+    },
+    {
+      "key": 83,
+      "label": "83-Jährige",
+      "value": 585337
+    },
+    {
+      "key": 84,
+      "label": "84-Jährige",
+      "value": 524879
+    },
+    {
+      "key": 85,
+      "label": "85 Jahre und mehr",
+      "value": 2386854
+    }
+  ],
+  [
+    {
+      "key": 0,
+      "label": "under 3",
+      "value": 4742834
+    },
+    {
+      "key": 1,
+      "label": "3 to 6",
+      "value": 4722876
+    },
+    {
+      "key": 2,
+      "label": "6 to 10",
+      "value": 5910982
+    },
+    {
+      "key": 3,
+      "label": "10 to 15",
+      "value": 7405826
+    },
+    {
+      "key": 4,
+      "label": "15 to 18",
+      "value": 4573286
+    },
+    {
+      "key": 5,
+      "label": "18 to 21",
+      "value": 5062938
+    },
+    {
+      "key": 6,
+      "label": "21 to 30",
+      "value": 17608066
+    },
+    {
+      "key": 7,
+      "label": "30 to 50",
+      "value": 41934628
+    },
+    {
+      "key": 8,
+      "label": "50 to 60",
+      "value": 26895080
+    },
+    {
+      "key": 9,
+      "label": "60 to 65",
+      "value": 11295542
+    },
+    {
+      "key": 10,
+      "label": "65 and up",
+      "value": 36181364
+    }
+  ],
+  [
+    {
+      "key": 1,
+      "label": "unter 1 Jahr",
+      "value": 795000
+    },
+    {
+      "key": 2,
+      "label": "1-Jährige",
+      "value": 795000
+    },
+    {
+      "key": 3,
+      "label": "2-Jährige",
+      "value": 797000
+    },
+    {
+      "key": 4,
+      "label": "3-Jährige",
+      "value": 809000
+    },
+    {
+      "key": 5,
+      "label": "4-Jährige",
+      "value": 783000
+    },
+    {
+      "key": 6,
+      "label": "5-Jährige",
+      "value": 773000
+    },
+    {
+      "key": 7,
+      "label": "6-Jährige",
+      "value": 745000
+    },
+    {
+      "key": 8,
+      "label": "7-Jährige",
+      "value": 742000
+    },
+    {
+      "key": 9,
+      "label": "8-Jährige",
+      "value": 726000
+    },
+    {
+      "key": 10,
+      "label": "9-Jährige",
+      "value": 743000
+    },
+    {
+      "key": 11,
+      "label": "10-Jährige",
+      "value": 732000
+    },
+    {
+      "key": 12,
+      "label": "11-Jährige",
+      "value": 751000
+    },
+    {
+      "key": 13,
+      "label": "12-Jährige",
+      "value": 746000
+    },
+    {
+      "key": 14,
+      "label": "13-Jährige",
+      "value": 731000
+    },
+    {
+      "key": 15,
+      "label": "14-Jährige",
+      "value": 740000
+    },
+    {
+      "key": 16,
+      "label": "15-Jährige",
+      "value": 757000
+    },
+    {
+      "key": 17,
+      "label": "16-Jährige",
+      "value": 758000
+    },
+    {
+      "key": 18,
+      "label": "17-Jährige",
+      "value": 773000
+    },
+    {
+      "key": 19,
+      "label": "18-Jährige",
+      "value": 800000
+    },
+    {
+      "key": 20,
+      "label": "19-Jährige",
+      "value": 848000
+    },
+    {
+      "key": 21,
+      "label": "20-Jährige",
+      "value": 870000
+    },
+    {
+      "key": 22,
+      "label": "21-Jährige",
+      "value": 903000
+    },
+    {
+      "key": 23,
+      "label": "22-Jährige",
+      "value": 950000
+    },
+    {
+      "key": 24,
+      "label": "23-Jährige",
+      "value": 945000
+    },
+    {
+      "key": 25,
+      "label": "24-Jährige",
+      "value": 930000
+    },
+    {
+      "key": 26,
+      "label": "25-Jährige",
+      "value": 947000
+    },
+    {
+      "key": 27,
+      "label": "26-Jährige",
+      "value": 979000
+    },
+    {
+      "key": 28,
+      "label": "27-Jährige",
+      "value": 997000
+    },
+    {
+      "key": 29,
+      "label": "28-Jährige",
+      "value": 1032000
+    },
+    {
+      "key": 30,
+      "label": "29-Jährige",
+      "value": 1126000
+    },
+    {
+      "key": 31,
+      "label": "30-Jährige",
+      "value": 1111000
+    },
+    {
+      "key": 32,
+      "label": "31-Jährige",
+      "value": 1136000
+    },
+    {
+      "key": 33,
+      "label": "32-Jährige",
+      "value": 1110000
+    },
+    {
+      "key": 34,
+      "label": "33-Jährige",
+      "value": 1090000
+    },
+    {
+      "key": 35,
+      "label": "34-Jährige",
+      "value": 1057000
+    },
+    {
+      "key": 36,
+      "label": "35-Jährige",
+      "value": 1050000
+    },
+    {
+      "key": 37,
+      "label": "36-Jährige",
+      "value": 1051000
+    },
+    {
+      "key": 38,
+      "label": "37-Jährige",
+      "value": 1071000
+    },
+    {
+      "key": 39,
+      "label": "38-Jährige",
+      "value": 1062000
+    },
+    {
+      "key": 40,
+      "label": "39-Jährige",
+      "value": 1066000
+    },
+    {
+      "key": 41,
+      "label": "40-Jährige",
+      "value": 1014000
+    },
+    {
+      "key": 42,
+      "label": "41-Jährige",
+      "value": 999000
+    },
+    {
+      "key": 43,
+      "label": "42-Jährige",
+      "value": 989000
+    },
+    {
+      "key": 44,
+      "label": "43-Jährige",
+      "value": 970000
+    },
+    {
+      "key": 45,
+      "label": "44-Jährige",
+      "value": 944000
+    },
+    {
+      "key": 46,
+      "label": "45-Jährige",
+      "value": 956000
+    },
+    {
+      "key": 47,
+      "label": "46-Jährige",
+      "value": 962000
+    },
+    {
+      "key": 48,
+      "label": "47-Jährige",
+      "value": 1039000
+    },
+    {
+      "key": 49,
+      "label": "48-Jährige",
+      "value": 1141000
+    },
+    {
+      "key": 50,
+      "label": "49-Jährige",
+      "value": 1181000
+    },
+    {
+      "key": 51,
+      "label": "50-Jährige",
+      "value": 1265000
+    },
+    {
+      "key": 52,
+      "label": "51-Jährige",
+      "value": 1322000
+    },
+    {
+      "key": 53,
+      "label": "52-Jährige",
+      "value": 1354000
+    },
+    {
+      "key": 54,
+      "label": "53-Jährige",
+      "value": 1386000
+    },
+    {
+      "key": 55,
+      "label": "54-Jährige",
+      "value": 1388000
+    },
+    {
+      "key": 56,
+      "label": "55-Jährige",
+      "value": 1409000
+    },
+    {
+      "key": 57,
+      "label": "56-Jährige",
+      "value": 1394000
+    },
+    {
+      "key": 58,
+      "label": "57-Jährige",
+      "value": 1345000
+    },
+    {
+      "key": 59,
+      "label": "58-Jährige",
+      "value": 1321000
+    },
+    {
+      "key": 60,
+      "label": "59-Jährige",
+      "value": 1272000
+    },
+    {
+      "key": 61,
+      "label": "60-Jährige",
+      "value": 1231000
+    },
+    {
+      "key": 62,
+      "label": "61-Jährige",
+      "value": 1158000
+    },
+    {
+      "key": 63,
+      "label": "62-Jährige",
+      "value": 1126000
+    },
+    {
+      "key": 64,
+      "label": "63-Jährige",
+      "value": 1089000
+    },
+    {
+      "key": 65,
+      "label": "64-Jährige",
+      "value": 1050000
+    },
+    {
+      "key": 66,
+      "label": "65-Jährige",
+      "value": 1023000
+    },
+    {
+      "key": 67,
+      "label": "66-Jährige",
+      "value": 983000
+    },
+    {
+      "key": 68,
+      "label": "67-Jährige",
+      "value": 974000
+    },
+    {
+      "key": 69,
+      "label": "68-Jährige",
+      "value": 947000
+    },
+    {
+      "key": 70,
+      "label": "69-Jährige",
+      "value": 939000
+    },
+    {
+      "key": 71,
+      "label": "70-Jährige",
+      "value": 899000
+    },
+    {
+      "key": 72,
+      "label": "71-Jährige",
+      "value": 813000
+    },
+    {
+      "key": 73,
+      "label": "72-Jährige",
+      "value": 756000
+    },
+    {
+      "key": 74,
+      "label": "73-Jährige",
+      "value": 650000
+    },
+    {
+      "key": 75,
+      "label": "74-Jährige",
+      "value": 564000
+    },
+    {
+      "key": 76,
+      "label": "75-Jährige",
+      "value": 743000
+    },
+    {
+      "key": 77,
+      "label": "76-Jährige",
+      "value": 742000
+    },
+    {
+      "key": 78,
+      "label": "77-Jährige",
+      "value": 704000
+    },
+    {
+      "key": 79,
+      "label": "78-Jährige",
+      "value": 836000
+    },
+    {
+      "key": 80,
+      "label": "79-Jährige",
+      "value": 854000
+    },
+    {
+      "key": 81,
+      "label": "80-Jährige",
+      "value": 812000
+    },
+    {
+      "key": 82,
+      "label": "81-Jährige",
+      "value": 723000
+    },
+    {
+      "key": 83,
+      "label": "82-Jährige",
+      "value": 641000
+    },
+    {
+      "key": 84,
+      "label": "83-Jährige",
+      "value": 583000
+    },
+    {
+      "key": 85,
+      "label": "84-Jährige",
+      "value": 523000
+    },
+    {
+      "key": 86,
+      "label": "85-Jährige",
+      "value": 445000
+    },
+    {
+      "key": 87,
+      "label": "86-Jährige",
+      "value": 325000
+    },
+    {
+      "key": 88,
+      "label": "87-Jährige",
+      "value": 290000
+    },
+    {
+      "key": 89,
+      "label": "88-Jährige",
+      "value": 260000
+    },
+    {
+      "key": 90,
+      "label": "89-Jährige",
+      "value": 238000
+    },
+    {
+      "key": 91,
+      "label": "90-Jährige",
+      "value": 197000
+    },
+    {
+      "key": 92,
+      "label": "91-Jährige",
+      "value": 163000
+    },
+    {
+      "key": 93,
+      "label": "92-Jährige",
+      "value": 125000
+    },
+    {
+      "key": 94,
+      "label": "93-Jährige",
+      "value": 98000
+    },
+    {
+      "key": 95,
+      "label": "94-Jährige",
+      "value": 76000
+    },
+    {
+      "key": 96,
+      "label": "95-Jährige",
+      "value": 53000
+    },
+    {
+      "key": 97,
+      "label": "96-Jährige",
+      "value": 38000
+    },
+    {
+      "key": 98,
+      "label": "97-Jährige",
+      "value": 27000
+    },
+    {
+      "key": 99,
+      "label": "98-Jährige",
+      "value": 19000
+    },
+    {
+      "key": 100,
+      "label": "99-Jährige",
+      "value": 13000
+    },
+    {
+      "key": 101,
+      "label": "100 Jahre und mehr",
+      "value": 14000
+    }
+  ]
+]

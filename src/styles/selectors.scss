@@ -1,0 +1,55 @@
+.selection {
+  ul, li{
+    list-style: none;
+    margin:0;
+    padding:0;
+  }
+
+  ul{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+  }
+
+  li{
+    padding-right:20px;
+  }
+
+  select{
+    background-color:rgba(13, 59, 97, 0.2);
+    color:rgba(13, 59, 97, 1);
+    font-weight:700;
+    padding:5px 10px;
+    border-radius:3px;
+    border: 1px solid rgba(13, 59, 97, 1);
+    cursor: pointer;
+  }
+
+  button{
+    cursor: pointer;
+    background-color:rgba(13, 59, 97, 0.2);
+    color:rgba(13, 59, 97, 1);
+    font-weight:700;
+    padding:5px 10px;
+    border-radius:3px;
+    border: 1px solid rgba(13, 59, 97, 1);
+    &.selected{
+      background-color:rgba(13, 59, 97, 0.7);
+      color:white;
+    }
+  }
+}
+
+@media  only screen and (max-width: 720px) {
+  .selection{
+    ul{
+      flex-direction: column;
+      li {
+        text-align: center;
+        padding-bottom:10px;
+      }
+    }
+  }  
+}
