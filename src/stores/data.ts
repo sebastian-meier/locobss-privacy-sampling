@@ -31,10 +31,6 @@ export const nationality:Writable<{
   }
 }> = writable({});
 
-export const translations:Writable<{
-  [key: string]: string
-}> = writable({});
-
 export const load = ():Promise<void[]> => {
   return Promise.all([
     fetch('/assets/data/spatial.json')
@@ -64,14 +60,7 @@ export const load = ():Promise<void[]> => {
       })
       .then((json) => {
         nationality.set(json);
-      }),
-    fetch('/assets/data/translations.json')
-      .then((data) => {
-        return data.json();
       })
-      .then((json) => {
-        translations.set(json);
-      }),
   ]);
 
 };

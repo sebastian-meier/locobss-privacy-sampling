@@ -7,8 +7,11 @@ export const i18nSetup = () => {
   addMessages('en', en);
   addMessages('de', de);
 
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
   init({
     fallbackLocale: 'de',
-    initialLocale: getLocaleFromNavigator(),
+    initialLocale: (urlParams.get('lang')) ? urlParams.get('lang') : getLocaleFromNavigator(),
   });
 };

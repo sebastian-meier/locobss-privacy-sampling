@@ -3,51 +3,51 @@
   "value": 538,
   "smallest": [
    [
-    "�briges Ozeanien"
+    "Übriges Ozeanien"
    ]
   ]
  },
  "age": {
   "value": 2286643,
   "smallest": [
-   ["/overall_15_to_18/"]
+   [15,"up to", 18]
   ]
  },
  "age_nationality": {
   "value": 7,
   "smallest": [
    [
-    "/overall_under_3/",
-    "�briges Ozeanien"
+    "under", 3,
+    "Übriges Ozeanien"
    ]
   ]
  },
  "gender": {
   "value": 41037613,
   "smallest": [
-   ["/^male_/"]
+   ["male"]
   ]
  },
  "gender_nationality": {
   "value": 225,
   "smallest": [
    [
-    "/female_/",
-    "�briges Ozeanien"
+    "female",
+    "Übriges Ozeanien"
    ]
   ]
  },
  "age_gender": {
   "value": 1107912,
   "smallest": [
-   ["/female_15_to_18/"]
+   ["female",15, "up to", 18]
   ]
  },
  "age_gender_nationality": {
   "value": 1,
   "smallest": [
    [
-    "/female_65_and_up/",
+    "female",65,"and above",
     "Benin"
    ]
   ]

@@ -3,6 +3,7 @@
   "gender": "Geschlecht",
   "nationality": "Nationalität",
   "marital_status": "Familienstand",
+  "marital": "Familienstand",
   "please_choose": "Bitte auswählen",
   "federal": "Deutschland",
   "states": "Bundesländer",
@@ -45,5 +46,14 @@
   "year":"Jahr",
   "years":"Jahre",
   "under":"unter",
-  "and above":"und älter"
+  "and above":"und älter",
+  "female": "Frauen",
+  "women": "Frauen",
+  "male": "Männer",
+  "german":"Deutsche",
+  "foreign": "Ausländische",
+  "widowers":"Witwe*r",
+  "divorcees":"Geschiedene",
+  "married":"Verheiratete",
+  "Übriges Ozeanien":"Übriges Ozeanien"
 }

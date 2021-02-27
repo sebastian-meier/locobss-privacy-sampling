@@ -3,7 +3,7 @@
   "value": 524879,
   "smallest": [
    [
-    "84 years old"
+    "84", "years old"
    ]
   ]
  },
@@ -28,25 +28,25 @@
  "gender_marital": {
   "value": 3574574,
   "smallest": [
-   ["female divorcees"]
+   ["female", "divorcees"]
   ]
  },
  "gender_marital_nationality": {
   "value": 50476,
   "smallest": [
-   ["foreign male widowers"]
+   ["foreign","male","widowers"]
   ]
  },
  "marital_nationality": {
   "value": 257266,
   "smallest": [
-  [ "foreign widowers"]
+    ["foreign", "widowers"]
   ]
  },
  "gender_nationality": {
   "value": 4901083,
   "smallest": [
-  [ "foreign women"]
+  [ "foreign", "women"]
   ]
  },
  "age_gender": {
@@ -54,7 +54,7 @@
   "smallest": [
    [
     "women",
-    "74 years old"
+    74, "years old"
    ]
   ]
  },
@@ -62,16 +62,16 @@
   "value": 1,
   "smallest": [
    [
-    "/divorces/",
-    "14-J�hrige"
+    "divorcees",
+    14,"years old"
    ],
    [
-    "/married/",
-    "15-J�hrige"
+    "married",
+    15,"years old"
    ],
    [
-    "/verwitwet/",
-    "15-J�hrige"
+    "widowers",
+    15,"years old"
    ]
   ]
  },
@@ -79,8 +79,8 @@
   "value": 13515,
   "smallest": [
    [
-    "/non_german/",
-    "84-J�hrige"
+    "foreign",
+    84,"years old"
    ]
   ]
  },
@@ -88,12 +88,12 @@
   "value": 1,
   "smallest": [
    [
-    "/female_divorces/",
-    "14-J�hrige"
+    "female","divorcees",
+    14,"years old"
    ],
    [
-    "/female_verwitwet/",
-    "15-J�hrige"
+    "female","widowers",
+    15,"years old"
    ]
   ]
  },
@@ -101,64 +101,64 @@
   "value": 1,
   "smallest": [
    [
-    "/non_german_female_divorces/",
-    "14-J�hrige"
+    "foreign","female","divorcees",
+    14,"years old"
    ],
    [
-    "/non_german_male_married/",
-    "15-J�hrige"
+    "foreign","male","married",
+    15,"years old"
    ],
    [
-    "/non_german_female_verwitwet/",
-    "15-J�hrige"
+    "foreign","female","widowers",
+    15,"years old"
    ],
    [
-    "/^german_female_married/",
-    "16-J�hrige"
+    "german","female","married",
+    16,"years old"
    ],
    [
-    "/non_german_male_married/",
-    "16-J�hrige"
+    "foreign","male","married",
+    16,"years old"
    ],
    [
-    "/^german_male_married/",
-    "17-J�hrige"
+    "german","male","married",
+    17,"years old"
    ],
    [
-    "/^german_female_married/",
-    "17-J�hrige"
+    "german","female","married",
+    17,"years old"
    ],
    [
-    "/^german_male_verwitwet/",
-    "18-J�hrige"
+    "german","male","widowers",
+    18,"years old"
    ],
    [
-    "/non_german_male_verwitwet/",
-    "18-J�hrige"
+    "foreign","male","widowers",
+    18,"years old"
    ],
    [
-    "/non_german_male_divorces/",
-    "18-J�hrige"
+    "foreign","male","divorcees",
+    18,"years old"
    ],
    [
-    "/^german_male_verwitwet/",
-    "19-J�hrige"
+    "german","male","widowers",
+    19,"years old"
    ],
    [
-    "/non_german_male_verwitwet/",
-    "19-J�hrige"
+    "foreign","male","widowers",
+    19,"years old"
    ],
    [
-    "/non_german_male_verwitwet/",
-    "20-J�hrige"
+    "foreign","male","widowers",
+    20,"years old"
    ],
    [
-    "/non_german_male_verwitwet/",
-    "21-J�hrige"
+    "foreign","male","widowers",
+    21,"years old"
    ],
    [
-    "/non_german_male_verwitwet/",
-    "23-J�hrige"
+    "foreign","male","widowers",
+    23,"years old"
    ]
   ]
  },
@@ -166,32 +166,32 @@
   "value": 1,
   "smallest": [
    [
-    "/non_german.*divorces/",
-    "14-J�hrige"
+    "foreign","divorcees",
+    14,"years old"
    ],
    [
-    "/non_german.*married/",
-    "15-J�hrige"
+    "foreign","married",
+    15,"years old"
    ],
    [
-    "/non_german.*verwitwet/",
-    "15-J�hrige"
+    "foreign","widowers",
+    15,"years old"
    ],
    [
-    "/^german.*married/",
-    "16-J�hrige"
+    "german","married",
+    16,"years old"
    ],
    [
-    "/^german.*verwitwet/",
-    "18-J�hrige"
+    "german","widowers",
+    18,"years old"
    ],
    [
-    "/non_german.*verwitwet/",
-    "18-J�hrige"
+    "foreign","widowers",
+    18,"years old"
    ],
    [
-    "/^german.*verwitwet/",
-    "19-J�hrige"
+    "german","widowers",
+    19,"years old"
    ]
   ]
  },
@@ -199,8 +199,8 @@
   "value": 6687,
   "smallest": [
    [
-    "/non_german_female/",
-    "84-J�hrige"
+    "foreign","female",
+    84,"years old"
    ]
   ]
  }

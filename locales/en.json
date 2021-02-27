@@ -3,6 +3,7 @@
   "gender": "Gender",
   "nationality": "Nationality",
   "marital_status": "Marital status",
+  "marital": "Marital status",
   "please_choose": "Please choose",
   "federal": "Federal",
   "states": "States",
@@ -45,5 +46,14 @@
   "year":"year",
   "years":"years",
   "under":"under",
-  "and above":"and above"
+  "and above":"and above",
+  "german":"German",
+  "female": "women",
+  "women": "women",
+  "male": "men",
+  "foreign": "foreign",
+  "widowers":"widowers",
+  "divorcees":"divorcees",
+  "married":"married",
+  "Übriges Ozeanien":"Rest of Oceania"
 }
