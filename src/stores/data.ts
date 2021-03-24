@@ -13,7 +13,7 @@ export const spatial:Writable<{
 
 export const ages:Writable<{
   "key":number;
-  "label": string;
+  "label": string[];
   "value":number;
 }[][]> = writable([]);
 
