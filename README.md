@@ -3,6 +3,8 @@ An explorable explanation for understanding the identification of individuals fr
 
 This project is part of the research project LoCobSS. Learn more about the project in the central [documentation repository](https://github.com/sebastian-meier/locobss-documentation).
 
+The live version is available here: [https://sampling.locobss.vislab.io](https://sampling.locobss.vislab.io)
+
 ## Install
 
 ```bash
