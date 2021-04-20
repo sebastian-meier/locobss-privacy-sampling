@@ -6,7 +6,6 @@ import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
-import {config} from 'dotenv';
 import replace from '@rollup/plugin-replace';
 import json from '@rollup/plugin-json';
 
@@ -97,7 +96,6 @@ export default {
       __global: JSON.stringify({
         env: {
           isProd: production,
-          ...config().parsed // attached the .env config
         }
       }),
     }),
