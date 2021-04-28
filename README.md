@@ -1,3 +1,5 @@
+This repo is part of the LoCobSS research project. More details about the project and dependencies to other repos can be found [here](https://github.com/sebastian-meier/LoCobSS-documentation).
+
 # locobss-privacy-sampling
 An explorable explanation for understanding the identification of individuals from anonymized data sets 
 
